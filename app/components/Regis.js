@@ -78,10 +78,10 @@ export default function Regis() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col items-center justify-center w-full h-full p-2 gap-2 bg-[#16af8e]"
+      className="flex flex-col items-center justify-center w-full h-full p-2 gap-2 bg-[#FFFFF]"
     >
       <Toaster position="top-right" reverseOrder={false} />
-      <div className="flex items-center justify-center w-full h-full p-2 gap-2 text-[#FFFFFF] text-2xl font-[900]">
+      <div className="flex items-center justify-center w-full h-full p-2 gap-2 text-[#000000] text-2xl font-[900]">
         Register!
       </div>
       <div className="flex flex-row items-center justify-center w-full h-full p-2 gap-2">
@@ -139,7 +139,7 @@ export default function Regis() {
         </div>
       </div>
       <div className="flex flex-row items-center justify-center w-full h-full p-2 gap-2">
-        <Button type="submit" className="bg-[#FFFFFF] text-[#16af8e]">
+        <Button type="submit" className="bg-[#000000] text-[#FFFFFF]">
           ลงทะเบียน
         </Button>
       </div>

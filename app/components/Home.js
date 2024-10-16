@@ -12,11 +12,12 @@ export default function Home() {
           width={800}
           height={600}
           priority={true}
+          style={{ filter: "grayscale(100%)" }}
         />
       </div>
       <div className="flex flex-col xl:flex-row items-center justify-center w-full h-full p-2 gap-2">
         <div className="flex flex-col items-center justify-center w-full h-full xl:w-5/12 p-2 gap-2">
-          <div className="flex items-center justify-center w-full h-full p-2 gap-2 text-[#16af8e] text-2xl font-[900]">
+          <div className="flex items-center justify-center w-full h-full p-2 gap-2 text-[#000000] text-2xl font-[900]">
             TownHome Chinnakhet Modern style
           </div>
         </div>
@@ -25,7 +26,7 @@ export default function Home() {
             เปิดพื้นที่ความสุขในบ้านที่ล้ำสมัย และความสุขที่เรียบง่าย
             ตอบโจทย์บ้านหลังแรกสำหรับครอบครัว มอบพื้นที่ความสุขสำหรับทุกคนในบ้าน
           </div>
-          <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#16af8e] text-md font-[600]">
+          <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md font-[600]">
             เริ่มต้นที่ 4.xx ล้านบาท
           </div>
         </div>

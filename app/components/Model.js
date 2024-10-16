@@ -14,7 +14,7 @@ import {
 export default function Model() {
   return (
     <div className="flex flex-col items-center justify-center w-full h-full p-2 gap-2 bg-[#FFFFFF]">
-      <div className="flex items-center justify-center w-full h-full p-2 gap-2 text-[#16af8e] text-2xl font-[900]">
+      <div className="flex items-center justify-center w-full h-full p-2 gap-2 text-[#000000] text-2xl font-[900]">
         House Model
       </div>
       <div className="flex flex-col xl:flex-row items-center justify-center w-full h-full p-2 gap-2">
@@ -27,6 +27,7 @@ export default function Model() {
             height={600}
             priority={true}
             className="rounded-3xl"
+            style={{ filter: "grayscale(100%)" }}
           />
         </div>
         <div className="flex flex-col items-center justify-center w-full h-full xl:w-4/12 p-2 gap-2">

@@ -12,9 +12,10 @@ export default function Idea() {
             height={150}
             priority={true}
             alt="logo"
+            style={{ filter: "grayscale(100%)" }}
           />
         </div>
-        <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#16af8e] text-md font-[600]">
+        <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md font-[600]">
           LESS IS MORE LIFE IS DESIGN
         </div>
         <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
@@ -37,6 +38,7 @@ export default function Idea() {
             priority={true}
             alt="model_5"
             className="rounded-3xl"
+            style={{ filter: "grayscale(100%)" }}
           />
         </div>
       </div>

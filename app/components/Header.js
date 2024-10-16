@@ -19,42 +19,43 @@ export default function Header() {
           height={150}
           priority={true}
           alt="logo"
+          style={{ filter: "grayscale(100%)" }}
         />
       </div>
-      <div className="flex flex-row items-center justify-between w-full h-full p-2 gap-2 overflow-auto text-[#FFFFFF] bg-[#16af8e]">
+      <div className="flex flex-row items-center justify-between xl:justify-center w-full h-full p-2 gap-2 overflow-auto text-[#435549] bg-[#FFFFFF]">
         <div
           onClick={() => scrollToSection("home")}
-          className="flex items-center justify-center min-w-40 h-full p-2 gap-2 hover:border-b-2 hover:border-[#FFFFFF] text-md font-[600]"
+          className="flex items-center justify-center min-w-40 h-full p-2 gap-2 hover:border-b-2 hover:border-[#435549] text-md font-[600]"
         >
           หน้าหลัก
         </div>
         <div
           onClick={() => scrollToSection("idea")}
-          className="flex items-center justify-center min-w-40 h-full p-2 gap-2 hover:border-b-2 hover:border-[#FFFFFF] text-md font-[600]"
+          className="flex items-center justify-center min-w-40 h-full p-2 gap-2 hover:border-b-2 hover:border-[#435549] text-md font-[600]"
         >
           แนวคิดโครงการ
         </div>
         <div
           onClick={() => scrollToSection("gallery")}
-          className="flex items-center justify-center min-w-40 h-full p-2 gap-2 hover:border-b-2 hover:border-[#FFFFFF] text-md font-[600]"
+          className="flex items-center justify-center min-w-40 h-full p-2 gap-2 hover:border-b-2 hover:border-[#435549] text-md font-[600]"
         >
           แกลเลอรี่
         </div>
         <div
           onClick={() => scrollToSection("model")}
-          className="flex items-center justify-center min-w-40 h-full p-2 gap-2 hover:border-b-2 hover:border-[#FFFFFF] text-md font-[600]"
+          className="flex items-center justify-center min-w-40 h-full p-2 gap-2 hover:border-b-2 hover:border-[#435549] text-md font-[600]"
         >
           แบบบ้าน
         </div>
         <div
           onClick={() => scrollToSection("house-model")}
-          className="flex items-center justify-center min-w-40 h-full p-2 gap-2 hover:border-b-2 hover:border-[#FFFFFF] text-md font-[600]"
+          className="flex items-center justify-center min-w-40 h-full p-2 gap-2 hover:border-b-2 hover:border-[#435549] text-md font-[600]"
         >
           ที่ตั้ง
         </div>
         <div
           onClick={() => scrollToSection("regis")}
-          className="flex items-center justify-center min-w-40 h-full p-2 gap-2 hover:border-b-2 hover:border-[#FFFFFF] text-md font-[600]"
+          className="flex items-center justify-center min-w-40 h-full p-2 gap-2 hover:border-b-2 hover:border-[#435549] text-md font-[600]"
         >
           ลงทะเบียน
         </div>
