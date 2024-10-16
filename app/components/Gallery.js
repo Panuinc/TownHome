@@ -18,7 +18,7 @@ const settings = {
 export default function Gallery() {
   return (
     <div className="flex flex-col items-center justify-center w-full h-full p-2 gap-2">
-      <div className="flex items-center justify-center w-full h-full p-2 gap-2 text-[#8eaf8c] text-2xl font-[900]">
+      <div className="flex items-center justify-center w-full h-full p-2 gap-2 text-[#16af8e] text-2xl font-[900]">
         Gallery
       </div>
       <div className="flex flex-col items-center justify-center w-full h-full p-2 gap-2">

@@ -73,7 +73,7 @@ export default function Location() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             className="w-full rounded-3xl"
-            // style={{ filter: "grayscale(100%)" }}
+            style={{ filter: "grayscale(100%)" }}
           ></iframe>
         </div>
       </div>

@@ -64,7 +64,7 @@ export default function Regis() {
       if (response.ok) {
         toast.success(result.message);
         setTimeout(() => {
-          router.push("/thank");
+          window.location.reload();
         }, 1000);
       } else {
         toast.error(result.message);
@@ -78,7 +78,7 @@ export default function Regis() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col items-center justify-center w-full h-full p-2 gap-2 bg-[#8eaf8c]"
+      className="flex flex-col items-center justify-center w-full h-full p-2 gap-2 bg-[#16af8e]"
     >
       <Toaster position="top-right" reverseOrder={false} />
       <div className="flex items-center justify-center w-full h-full p-2 gap-2 text-[#FFFFFF] text-2xl font-[900]">
@@ -139,7 +139,7 @@ export default function Regis() {
         </div>
       </div>
       <div className="flex flex-row items-center justify-center w-full h-full p-2 gap-2">
-        <Button type="submit" className="bg-[#FFFFFF] text-[#8eaf8c]">
+        <Button type="submit" className="bg-[#FFFFFF] text-[#16af8e]">
           ลงทะเบียน
         </Button>
       </div>
