@@ -13,7 +13,7 @@ import {
 
 function Listlocation({ text }) {
   return (
-    <div className="flex items-center justify-start w-full h-full xl:w-5/12 p-2 gap-2 text-[#000000] text-md font-[600]">
+    <div className="flex items-center justify-start w-full h-full xl:w-5/12 p-2 gap-2 text-[#999999] text-md font-[600] hover:text-[#000000]">
       ● {text}
     </div>
   );
@@ -35,7 +35,7 @@ export default function Location() {
     <div className="flex flex-col items-center justify-center w-full h-full p-2 gap-2 bg-[#FFFFFF]">
       <div className="flex flex-col xl:flex-row items-center justify-center w-full h-full p-2 gap-2">
         <div className="flex flex-col items-center justify-center w-full h-full xl:w-4/12 p-2 gap-2">
-          <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#55B4F1] text-2xl font-[900]">
+          <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#92CA68] text-2xl font-[900]">
             Location
           </div>
           <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md font-[600]">
@@ -73,39 +73,39 @@ export default function Location() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             className="w-full rounded-3xl"
-            style={{ filter: "grayscale(100%)" }}
+            // style={{ filter: "grayscale(100%)" }}
           ></iframe>
         </div>
       </div>
       <div className="flex flex-col xl:flex-row items-center justify-center w-full h-full p-2 gap-2 overflow-auto">
-        <div className="flex flex-row items-center justify-between w-full h-full xl:w-10/12 gap-2 border-b-2 border-[#55B4F1]">
+        <div className="flex flex-row items-center justify-between w-full h-full xl:w-10/12 gap-2 border-b-2 border-[#92CA68]">
           <div
             onClick={() => setActiveSection("highway")}
-            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#55B4F1] text-[#000000] text-md font-[600]"
+            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#92CA68] text-[#999999] text-md font-[600] hover:text-[#000000]"
           >
             <AddRoadOutlined /> ทางด่วน
           </div>
           <div
             onClick={() => setActiveSection("mall")}
-            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#55B4F1] text-[#000000] text-md font-[600]"
+            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#92CA68] text-[#999999] text-md font-[600] hover:text-[#000000]"
           >
             <LocalMallOutlined /> ห้างสรรพสินค้า
           </div>
           <div
             onClick={() => setActiveSection("school")}
-            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#55B4F1] text-[#000000] text-md font-[600]"
+            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#92CA68] text-[#999999] text-md font-[600] hover:text-[#000000]"
           >
             <SchoolOutlined /> สถานศึกษา
           </div>
           <div
             onClick={() => setActiveSection("hospital")}
-            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#55B4F1] text-[#000000] text-md font-[600]"
+            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#92CA68] text-[#999999] text-md font-[600] hover:text-[#000000]"
           >
             <LocalHospitalOutlined /> สถานพยาบาล
           </div>
           <div
             onClick={() => setActiveSection("station")}
-            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#55B4F1] text-[#000000] text-md font-[600]"
+            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#92CA68] text-[#999999] text-md font-[600] hover:text-[#000000]"
           >
             <DirectionsSubwayFilledOutlined /> สถานนีรถไฟฟ้า
           </div>

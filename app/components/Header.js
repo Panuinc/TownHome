@@ -21,7 +21,7 @@ export default function Header() {
           alt="logo"
         />
       </div> */}
-      <div className="flex flex-row items-center justify-between xl:justify-center w-full h-full p-2 gap-2 overflow-auto text-[#FFFFFF] bg-[#55B4F1]">
+      <div className="flex flex-row items-center justify-between xl:justify-center w-full h-full p-2 gap-2 overflow-auto text-[#FFFFFF] bg-[#55B4F1] opacity-90">
         <div
           onClick={() => scrollToSection("home")}
           className="flex items-center justify-center min-w-40 h-full p-2 gap-2 hover:border-b-2 hover:border-[#FFFFFF] text-md font-[600]"
