@@ -20,7 +20,7 @@ export default function Model() {
       <div className="flex flex-col xl:flex-row items-center justify-center w-full h-full p-2 gap-2">
         <div className="flex flex-col items-center justify-center w-full h-full xl:w-6/12 p-2 gap-2">
           <Image
-            src="/images/townhome/model_1.jpg"
+            src="/images/townhome/model_2.jpg"
             layout="responsive"
             alt="home"
             width={800}
@@ -30,53 +30,53 @@ export default function Model() {
           />
         </div>
         <div className="flex flex-col items-center justify-center w-full h-full xl:w-4/12 p-2 gap-2">
-          <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-2xl text-[900]">
+          <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-2xl font-[900]">
             แบบบ้าน 3 ห้องนอน
           </div>
-          <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
+          <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md font-[600]">
             3 ห้องนอน | 3 ห้องน้ำ | 1 ห้องรับแขก | 2 ที่จอดรถ
           </div>
-          <div className="flex flex-col xl:flex-row items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
-            <div className="flex flex-col items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
-              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
+          <div className="flex flex-col xl:flex-row items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
+            <div className="flex flex-col items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
+              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
                 <SpaceDashboardOutlined /> พื้นที่ใช้สอย
               </div>
-              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
+              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
                 156 ตร.ม.
               </div>
             </div>
-            <div className="flex flex-col items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
-              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
+            <div className="flex flex-col items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
+              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
                 <ZoomOutMapOutlined /> ขนาดที่ดิน
               </div>
-              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
+              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
                 32 ตร.ว.
               </div>
             </div>
           </div>
-          <div className="flex flex-col xl:flex-row items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
-            <div className="flex flex-col items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
-              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
+          <div className="flex flex-col xl:flex-row items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
+            <div className="flex flex-col items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
+              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
                 <KingBedOutlined />3 ห้องนอน
               </div>
-              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
+              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
                 <BathtubOutlined />3 ห้องน้ำ
               </div>
             </div>
-            <div className="flex flex-col items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
-              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
+            <div className="flex flex-col items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
+              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
                 <ChairOutlined /> 1 ห้องรับแขก
               </div>
-              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
+              <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
                 <DirectionsCarFilledOutlined /> 2 ที่จอดรถ
               </div>
             </div>
           </div>
-          <div className="flex flex-col xl:flex-row items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]">
+          <div className="flex flex-col xl:flex-row items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
             <Link
               href="/images/townhome/floor_1.png"
               target="_black"
-              className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]"
+              className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md font-[600]"
             >
               <ArrowOutward />
               Floor 1
@@ -84,7 +84,7 @@ export default function Model() {
             <Link
               href="/images/townhome/floor_2.png"
               target="_black"
-              className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md text-[600]"
+              className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md font-[600]"
             >
               <ArrowOutward />
               Floor 2

@@ -48,7 +48,7 @@ export default function Location() {
               className="flex items-center justify-center h-full p-2 gap-2"
             >
               <MapOutlined />
-              <p className="border-b-2 border-[#000000] text-[#000000]text-md font-[600]">
+              <p className="border-b-2 border-[#000000] text-[#000000] text-md font-[600]">
                 GRAPHIC MAP
               </p>
             </Link>
@@ -81,25 +81,25 @@ export default function Location() {
         <div className="flex flex-row items-center justify-between w-full h-full xl:w-10/12 gap-2 border-b-2 border-[#000000]">
           <div
             onClick={() => setActiveSection("highway")}
-            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#000000] text-[#000000]text-md font-[600]"
+            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#000000] text-[#000000] text-md font-[600]"
           >
             <AddRoadOutlined /> ทางด่วน
           </div>
           <div
             onClick={() => setActiveSection("mall")}
-            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#000000] text-[#000000]text-md font-[600]"
+            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#000000] text-[#000000] text-md font-[600]"
           >
             <LocalMallOutlined /> ห้างสรรพสินค้า
           </div>
           <div
             onClick={() => setActiveSection("school")}
-            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#000000] text-[#000000]text-md font-[600]"
+            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#000000] text-[#000000] text-md font-[600]"
           >
             <SchoolOutlined /> สถานศึกษา
           </div>
           <div
             onClick={() => setActiveSection("hospital")}
-            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#000000] text-[#000000]text-md font-[600]"
+            className="flex items-center justify-center min-w-40 h-full p-2 gap-2 cursor-pointer hover:border-b-4 hover:border-[#000000] text-[#000000] text-md font-[600]"
           >
             <LocalHospitalOutlined /> สถานพยาบาล
           </div>
