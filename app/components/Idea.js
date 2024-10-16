@@ -18,7 +18,7 @@ export default function Idea() {
         <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#FFFFFF] text-md font-[600]">
           LESS IS MORE LIFE IS DESIGN
         </div>
-        <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#FFFFFF] text-sm font-[300]">
+        <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#FFFFFF] text-md font-[300]">
           สัมผัสชีวิตเหนือระดับในสไตล์ Modern เรียบหรู
           พร้อมฟังก์ชันการใช้งานที่ลงตัว ตอบโจทย์ทุกไลฟ์สไตล์ บนทำเลทอง
           ใกล้ทางด่วนพิเศษศรีรัชและอุตราภิมุข แวดล้อมด้วยสิ่งอำนวยความสะดวก เช่น
