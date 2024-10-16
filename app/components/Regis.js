@@ -78,14 +78,14 @@ export default function Regis() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col items-center justify-center w-full h-full p-2 gap-2 bg-[#FFFFF]"
+      className="flex flex-col items-center justify-center w-full h-full p-2 gap-2 bg-[#FFFFFF]"
     >
       <Toaster position="top-right" reverseOrder={false} />
       <div className="flex items-center justify-center w-full h-full p-2 gap-2 text-[#55B4F1] text-2xl font-[900]">
         Register!
       </div>
       <div className="flex flex-row items-center justify-center w-full h-full p-2 gap-2">
-        <div className="flex items-center justify-center w-full h-full xl:w-5/12 p-2 gap-2">
+        <div className="flex items-center justify-center w-full h-full xl:w-4/12 p-2 gap-2">
           <Input
             size="sm"
             type="text"
@@ -96,7 +96,7 @@ export default function Regis() {
             placeholder="ชื่อ*"
           />
         </div>
-        <div className="flex items-center justify-center w-full h-full xl:w-5/12 p-2 gap-2">
+        <div className="flex items-center justify-center w-full h-full xl:w-4/12 p-2 gap-2">
           <Input
             size="sm"
             type="text"
@@ -109,7 +109,7 @@ export default function Regis() {
         </div>
       </div>
       <div className="flex flex-row items-center justify-center w-full h-full p-2 gap-2">
-        <div className="flex items-center justify-center w-full h-full xl:w-5/12 p-2 gap-2">
+        <div className="flex items-center justify-center w-full h-full xl:w-4/12 p-2 gap-2">
           <Input
             size="sm"
             type="email"
@@ -123,7 +123,7 @@ export default function Regis() {
             placeholder="อีเมลล์*"
           />
         </div>
-        <div className="flex items-center justify-center w-full h-full xl:w-5/12 p-2 gap-2">
+        <div className="flex items-center justify-center w-full h-full xl:w-4/12 p-2 gap-2">
           <Input
             size="md"
             type="text"

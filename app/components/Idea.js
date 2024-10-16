@@ -31,7 +31,7 @@ export default function Idea() {
       <div className="flex flex-col items-center justify-center w-full h-full xl:w-5/12 p-2 gap-2">
         <div className="flex items-center justify-center w-full h-full p-2 gap-2">
           <Image
-            src="/images/townhome/model_3.jpg"
+            src="/images/townhome/happ_1.jpg"
             layout="responsive"
             width={500}
             height={100}
