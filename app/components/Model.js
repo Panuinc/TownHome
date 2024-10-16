@@ -14,7 +14,7 @@ import {
 export default function Model() {
   return (
     <div className="flex flex-col items-center justify-center w-full h-full p-2 gap-2 bg-[#FFFFFF]">
-      <div className="flex items-center justify-center w-full h-full p-2 gap-2 text-[#000000] text-2xl font-[900]">
+      <div className="flex items-center justify-center w-full h-full p-2 gap-2 text-[#55B4F1] text-2xl font-[900]">
         House Model
       </div>
       <div className="flex flex-col xl:flex-row items-center justify-center w-full h-full p-2 gap-2">
@@ -27,7 +27,7 @@ export default function Model() {
             height={600}
             priority={true}
             className="rounded-3xl"
-            style={{ filter: "grayscale(100%)" }}
+            // style={{ filter: "grayscale(100%)" }}
           />
         </div>
         <div className="flex flex-col items-center justify-center w-full h-full xl:w-4/12 p-2 gap-2">
@@ -40,7 +40,7 @@ export default function Model() {
           <div className="flex flex-col xl:flex-row items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
             <div className="flex flex-col items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
               <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
-                <SpaceDashboardOutlined /> พื้นที่ใช้สอย
+                <SpaceDashboardOutlined className="text-[#55B4F1]"/> พื้นที่ใช้สอย
               </div>
               <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
                 156 ตร.ม.
@@ -48,7 +48,7 @@ export default function Model() {
             </div>
             <div className="flex flex-col items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
               <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
-                <ZoomOutMapOutlined /> ขนาดที่ดิน
+                <ZoomOutMapOutlined className="text-[#55B4F1]"/> ขนาดที่ดิน
               </div>
               <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
                 32 ตร.ว.
@@ -58,18 +58,18 @@ export default function Model() {
           <div className="flex flex-col xl:flex-row items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
             <div className="flex flex-col items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
               <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
-                <KingBedOutlined />3 ห้องนอน
+                <KingBedOutlined className="text-[#55B4F1]"/>3 ห้องนอน
               </div>
               <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
-                <BathtubOutlined />3 ห้องน้ำ
+                <BathtubOutlined className="text-[#55B4F1]"/>3 ห้องน้ำ
               </div>
             </div>
             <div className="flex flex-col items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
               <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
-                <ChairOutlined /> 1 ห้องรับแขก
+                <ChairOutlined className="text-[#55B4F1]"/> 1 ห้องรับแขก
               </div>
               <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
-                <DirectionsCarFilledOutlined /> 2 ที่จอดรถ
+                <DirectionsCarFilledOutlined className="text-[#55B4F1]"/> 2 ที่จอดรถ
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ export default function Model() {
               target="_black"
               className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md font-[600]"
             >
-              <ArrowOutward />
+              <ArrowOutward className="text-[#55B4F1]"/>
               Floor 1
             </Link>
             <Link
@@ -87,7 +87,7 @@ export default function Model() {
               target="_black"
               className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md font-[600]"
             >
-              <ArrowOutward />
+              <ArrowOutward className="text-[#55B4F1]"/>
               Floor 2
             </Link>
           </div>

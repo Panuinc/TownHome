@@ -3,22 +3,22 @@ import Image from "next/image";
 
 export default function Idea() {
   return (
-    <div className="flex flex-col xl:flex-row items-center justify-center w-full h-full p-2 gap-2 bg-[#FFFFFF]">
+    <div className="flex flex-col xl:flex-row items-center justify-center w-full h-full p-2 gap-2 bg-[#3C3D37]">
       <div className="flex flex-col items-center justify-center w-full h-full xl:w-5/12 p-2 gap-2">
         <div className="flex items-center justify-start w-full h-full p-2 gap-2">
           <Image
-            src="/images/logo/logo.jpg"
+            src="/images/logo/logo.png"
             width={150}
             height={150}
             priority={true}
             alt="logo"
-            style={{ filter: "grayscale(100%)" }}
+            // style={{ filter: "grayscale(100%)" }}
           />
         </div>
-        <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md font-[600]">
+        <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#FFFFFF] text-md font-[600]">
           LESS IS MORE LIFE IS DESIGN
         </div>
-        <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">
+        <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#FFFFFF] text-sm font-[300]">
           สัมผัสชีวิตเหนือระดับในสไตล์ Modern เรียบหรู
           พร้อมฟังก์ชันการใช้งานที่ลงตัว ตอบโจทย์ทุกไลฟ์สไตล์ บนทำเลทอง
           ใกล้ทางด่วนพิเศษศรีรัชและอุตราภิมุข แวดล้อมด้วยสิ่งอำนวยความสะดวก เช่น
@@ -31,14 +31,14 @@ export default function Idea() {
       <div className="flex flex-col items-center justify-center w-full h-full xl:w-5/12 p-2 gap-2">
         <div className="flex items-center justify-center w-full h-full p-2 gap-2">
           <Image
-            src="/images/townhome/model_5.jpg"
+            src="/images/townhome/model_3.jpg"
             layout="responsive"
             width={500}
             height={100}
             priority={true}
             alt="model_5"
-            className="rounded-3xl"
-            style={{ filter: "grayscale(100%)" }}
+            className="rounded-xl"
+            // style={{ filter: "grayscale(100%)" }}
           />
         </div>
       </div>
