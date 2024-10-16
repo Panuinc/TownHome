@@ -35,7 +35,7 @@ export default function Location() {
     <div className="flex flex-col items-center justify-center w-full h-full p-2 gap-2 bg-[#FFFFFF]">
       <div className="flex flex-col xl:flex-row items-center justify-center w-full h-full p-2 gap-2">
         <div className="flex flex-col items-center justify-center w-full h-full xl:w-4/12 p-2 gap-2">
-          <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-2xl font-[900]">
+          <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#16af8e] text-2xl font-[900]">
             Location
           </div>
           <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md font-[600]">
@@ -73,7 +73,7 @@ export default function Location() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
             className="w-full rounded-3xl"
-            style={{ filter: "grayscale(100%)" }}
+            // style={{ filter: "grayscale(100%)" }}
           ></iframe>
         </div>
       </div>
