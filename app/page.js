@@ -8,7 +8,7 @@ import Location from "./components/Location";
 
 export default function page() {
   return (
-    <div className="flex flex-col items-center justify-center w-full h-full gap-2 pt-28 xl:pt-36">
+    <div className="flex flex-col items-center justify-center w-full h-full">
       <div id="home" className="w-full">
         <Home id="home" />
       </div>
@@ -21,7 +21,7 @@ export default function page() {
       <div id="gallery" className="w-full">
         <Gallery />
       </div>
-      <div id="house-model" className="w-full">
+      <div id="model" className="w-full">
         <Model />
       </div>
       <div id="location" className="w-full">

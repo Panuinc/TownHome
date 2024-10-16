@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       </head>
 
       <body className={(inter.className, prompt.variable)}>
-        <div className="flex flex-col items-center justify-between w-full min-h-screen gap-2 font-prompt">
+        <div className="flex flex-col items-center justify-between w-full min-h-screen font-prompt">
           <Header />
           {children}
           <Footer />

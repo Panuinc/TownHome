@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Idea() {
   return (
-    <div className="flex flex-col xl:flex-row items-center justify-center w-full h-full p-2 gap-2 bg-[#FFFFFF] border-2 border-[#000000]">
+    <div className="flex flex-col xl:flex-row items-center justify-center w-full h-full p-2 gap-2 bg-[#FFFFFF]">
       <div className="flex flex-col items-center justify-center w-full h-full xl:w-5/12 p-2 gap-2">
         <div className="flex items-center justify-start w-full h-full p-2 gap-2">
           <Image
@@ -14,7 +14,7 @@ export default function Idea() {
             alt="logo"
           />
         </div>
-        <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-md font-[600]">
+        <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#8eaf8c] text-md font-[600]">
           LESS IS MORE LIFE IS DESIGN
         </div>
         <div className="flex items-center justify-start w-full h-full p-2 gap-2 text-[#000000] text-sm font-[300]">

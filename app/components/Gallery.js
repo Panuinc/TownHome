@@ -17,8 +17,8 @@ const settings = {
 
 export default function Gallery() {
   return (
-    <div className="flex flex-col items-center justify-center w-full h-full p-2 gap-2 border-2 border-[#000000]">
-      <div className="flex items-center justify-center w-full h-full p-2 gap-2 text-[#000000] text-2xl font-[900]">
+    <div className="flex flex-col items-center justify-center w-full h-full p-2 gap-2">
+      <div className="flex items-center justify-center w-full h-full p-2 gap-2 text-[#8eaf8c] text-2xl font-[900]">
         Gallery
       </div>
       <div className="flex flex-col items-center justify-center w-full h-full p-2 gap-2">
@@ -32,7 +32,7 @@ export default function Gallery() {
                   width={800}
                   height={600}
                   priority={true}
-                  className="object-contain"
+                  className="object-contain rounded-3xl"
                 />
               </div>
             </div>
@@ -44,7 +44,7 @@ export default function Gallery() {
                   width={800}
                   height={600}
                   priority={true}
-                  className="object-contain"
+                  className="object-contain rounded-3xl"
                 />
               </div>
             </div>
@@ -56,7 +56,7 @@ export default function Gallery() {
                   width={800}
                   height={600}
                   priority={true}
-                  className="object-contain"
+                  className="object-contain rounded-3xl"
                 />
               </div>
             </div>
